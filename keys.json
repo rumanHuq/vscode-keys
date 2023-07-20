@@ -1,10 +1,10 @@
 [
   {
-    "key": "ctrl+cmd+a",
+    "key": "cmd+ctrl+a",
     "command": "workbench.action.toggleActivityBarVisibility"
   },
   {
-    "key": "cmd+r",
+    "key": "ctrl+r",
     "command": "-workbench.action.reloadWindow",
     "when": "isDevelopment"
   },
@@ -14,7 +14,7 @@
     "when": "!terminalFocus"
   },
   {
-    "key": "cmd+r r",
+    "key": "ctrl+r r",
     "command": "-npm-script.rerun-last-script",
     "when": "!terminalFocus"
   },
@@ -24,7 +24,7 @@
     "when": "!terminalFocus"
   },
   {
-    "key": "cmd+r shift+r",
+    "key": "ctrl+r shift+r",
     "command": "-npm-script.run",
     "when": "!terminalFocus"
   },
@@ -34,7 +34,7 @@
     "when": "!terminalFocus"
   },
   {
-    "key": "cmd+r l",
+    "key": "ctrl+r l",
     "command": "-npm-script.showOutput",
     "when": "!terminalFocus"
   },
@@ -44,7 +44,7 @@
     "when": "!terminalFocus"
   },
   {
-    "key": "cmd+r t",
+    "key": "ctrl+r t",
     "command": "-npm-script.test",
     "when": "!terminalFocus"
   },
@@ -54,94 +54,94 @@
     "when": "!terminalFocus"
   },
   {
-    "key": "cmd+r shift+x",
+    "key": "ctrl+r shift+x",
     "command": "-npm-script.terminate-script",
     "when": "!terminalFocus"
   },
   {
-    "key": "cmd+r",
+    "key": "ctrl+r",
     "command": "workbench.action.openRecent"
   },
   {
-    "key": "ctrl+r",
+    "key": "cmd+r",
     "command": "-workbench.action.openRecent"
   },
   {
-    "key": "ctrl+r",
+    "key": "cmd+r",
     "command": "workbench.action.quickOpenNavigateNextInRecentFilesPicker"
   },
   {
-    "key": "ctrl+r",
+    "key": "cmd+r",
     "command": "-workbench.action.quickOpenNavigateNextInRecentFilesPicker",
     "when": "inQuickOpen && inRecentFilesPicker"
   },
   {
-    "key": "ctrl+shift+r",
+    "key": "cmd+shift+r",
     "command": "workbench.action.quickOpenNavigatePreviousInRecentFilesPicker"
   },
   {
-    "key": "ctrl+shift+r",
+    "key": "cmd+shift+r",
     "command": "-workbench.action.quickOpenNavigatePreviousInRecentFilesPicker",
     "when": "inQuickOpen && inRecentFilesPicker"
   },
   {
-    "key": "cmd+[IntlBackslash]",
+    "key": "ctrl+[IntlBackslash]",
     "command": "workbench.action.terminal.toggleTerminal"
   },
   {
-    "key": "cmd+`",
+    "key": "ctrl+`",
     "command": "workbench.action.terminal.toggleTerminal"
   },
   {
-    "key": "cmd+~",
+    "key": "ctrl+~",
     "command": "workbench.action.terminal.toggleTerminal"
   },
   {
-    "key": "shift+cmd+p",
+    "key": "shift+ctrl+p",
     "command": "projectManager.listProjects"
   },
   {
-    "key": "alt+cmd+p",
+    "key": "alt+ctrl+p",
     "command": "-projectManager.listProjects"
   },
   {
-    "key": "shift+cmd+p",
+    "key": "shift+ctrl+p",
     "command": "-workbench.action.showCommands"
   },
   {
-    "key": "shift+cmd+p",
+    "key": "shift+ctrl+p",
     "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
     "when": "inFilesPicker && inQuickOpen"
   },
   {
-    "key": "shift+cmd+g",
+    "key": "shift+ctrl+g",
     "command": "-workbench.action.terminal.findPrevious",
     "when": "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported"
   },
   {
-    "key": "shift+cmd+g",
+    "key": "shift+ctrl+g",
     "command": "-editor.action.previousMatchFindAction",
     "when": "editorFocus"
   },
   {
-    "key": "ctrl+shift+g",
+    "key": "cmd+shift+g",
     "command": "-workbench.view.scm",
     "when": "gitlens:enabled && config.gitlens.keymap == 'chorded'"
   },
   {
-    "key": "shift+cmd+g",
+    "key": "shift+ctrl+g",
     "command": "workbench.view.scm"
   },
   {
-    "key": "ctrl+shift+g",
+    "key": "cmd+shift+g",
     "command": "-workbench.view.scm"
   },
   {
-    "key": "ctrl+g ctrl+s",
+    "key": "cmd+g cmd+s",
     "command": "git.stashIncludeUntracked"
   },
   {
-    "key": "ctrl+g ctrl+a",
+    "key": "cmd+g cmd+a",
     "command": "git.stashApply"
   },
   {
@@ -149,84 +149,84 @@
     "command": "explorer.newFile"
   },
   {
-    "key": "ctrl+j ctrl+j",
+    "key": "cmd+j cmd+j",
     "command": "sortJSON.sortJSONAlphaNum"
   },
   {
-    "key": "cmd+space",
+    "key": "ctrl+space",
     "command": "editor.action.triggerSuggest",
     "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+space",
+    "key": "cmd+space",
     "command": "-editor.action.triggerSuggest",
     "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+g ctrl+c",
+    "key": "cmd+g cmd+c",
     "command": "git.branch"
   },
   {
-    "key": "ctrl+g ctrl+r",
+    "key": "cmd+g cmd+r",
     "command": "git.renameBranch"
   },
   {
-    "key": "shift+cmd+l",
+    "key": "shift+ctrl+l",
     "command": "-editor.action.selectHighlights",
     "when": "editorFocus"
   },
   {
-    "key": "shift+cmd+l",
+    "key": "shift+ctrl+l",
     "command": "-addCursorsAtSearchResults",
     "when": "fileMatchOrMatchFocus && searchViewletVisible"
   },
   {
-    "key": "shift+cmd+l",
+    "key": "shift+ctrl+l",
     "command": "-selectAllSearchEditorMatches",
     "when": "inSearchEditor"
   },
   {
-    "key": "shift+cmd+l",
+    "key": "shift+ctrl+l",
     "command": "workbench.view.extension.gitlab-workflow"
   },
   {
-    "key": "shift+cmd+w",
+    "key": "shift+ctrl+w",
     "command": "-workbench.action.closeWindow"
   },
   {
-    "key": "shift+cmd+d",
+    "key": "shift+ctrl+d",
     "command": "-workbench.view.debug"
   },
   {
-    "key": "shift+cmd+d",
+    "key": "shift+ctrl+d",
     "command": "workbench.view.extension.dockerView"
   },
   {
-    "key": "cmd+2",
+    "key": "ctrl+2",
     "command": "-workbench.action.focusSecondEditorGroup"
   },
   {
-    "key": "cmd+2",
+    "key": "ctrl+2",
     "command": "workbench.action.splitEditorRight"
   },
   {
-    "key": "cmd+k cmd+z",
+    "key": "ctrl+k ctrl+z",
     "command": "workbench.action.toggleZenMode"
   },
   {
-    "key": "cmd+k z",
+    "key": "ctrl+k z",
     "command": "-workbench.action.toggleZenMode"
   },
   {
-    "key": "ctrl+shift+w",
+    "key": "cmd+shift+w",
     "command": "editor.emmet.action.wrapWithAbbreviation"
   },
   {
-    "key": "ctrl+l ctrl+l",
+    "key": "cmd+l cmd+l",
     "command": "workbench.action.gotoLine"
   },
   {
-    "key": "ctrl+g",
+    "key": "cmd+g",
     "command": "-workbench.action.gotoLine"
   },
   {
@@ -234,27 +234,27 @@
     "command": "workbench.action.minimizeOtherEditors"
   },
   {
-    "key": "cmd+f2",
+    "key": "ctrl+f2",
     "command": "editor.action.changeAll",
     "when": "editorTextFocus && editorTextFocus && !editorReadonly"
   },
   {
-    "key": "cmd+f2",
+    "key": "ctrl+f2",
     "command": "-editor.action.changeAll",
     "when": "editorTextFocus && editorTextFocus && !editorReadonly"
   },
   {
-    "key": "cmd+d",
+    "key": "ctrl+d",
     "command": "-editor.action.addSelectionToNextFindMatch",
     "when": "editorFocus"
   },
   {
-    "key": "cmd+d",
+    "key": "ctrl+d",
     "command": "-svgeditor.duplicate",
     "when": "svgeditorWebviewFocus"
   },
   {
-    "key": "cmd+d",
+    "key": "ctrl+d",
     "command": "editor.action.addSelectionToNextFindMatch"
   },
   {
@@ -271,7 +271,7 @@
     "command": "normanstypczynski.gqlformatter.formatGqlString"
   },
   {
-    "key": "shift+alt+cmd+n q",
+    "key": "shift+alt+ctrl+n q",
     "command": "-normanstypczynski.gqlformatter.formatGqlString"
   },
   {
@@ -279,7 +279,7 @@
     "command": "normanstypczynski.gqlformatter.echo.settings"
   },
   {
-    "key": "shift+alt+cmd+n s",
+    "key": "shift+alt+ctrl+n s",
     "command": "-normanstypczynski.gqlformatter.echo.settings"
   },
   {
@@ -305,25 +305,25 @@
     "command": "workbench.action.positionPanelRight"
   },
   {
-    "key": "cmd+w",
+    "key": "ctrl+w",
     "command": "workbench.action.closeWindow",
     "when": "!editorIsOpen && !multipleEditorGroups"
   },
   {
-    "key": "shift+cmd+w",
+    "key": "shift+ctrl+w",
     "command": "workbench.view.debug"
   },
   {
-    "key": "ctrl+shift+a",
+    "key": "cmd+shift+a",
     "command": "-cursorLineStartSelect",
     "when": "textInputFocus"
   },
   {
-    "key": "ctrl+shift+a",
+    "key": "cmd+shift+a",
     "command": "editor.emmet.action.balanceOut"
   },
   {
-    "key": "ctrl+shift+z",
+    "key": "cmd+shift+z",
     "command": "editor.emmet.action.balanceIn"
   },
   {
@@ -344,7 +344,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "alt+cmd+k",
+    "key": "alt+ctrl+k",
     "command": "-bookmarks.toggle",
     "when": "editorTextFocus"
   },
@@ -354,7 +354,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "alt+cmd+l",
+    "key": "alt+ctrl+l",
     "command": "-bookmarks.jumpToNext",
     "when": "editorTextFocus"
   },
@@ -372,11 +372,11 @@
     "command": "workbench.action.moveActiveEditorGroupLeft"
   },
   {
-    "key": "cmd+k left",
+    "key": "ctrl+k left",
     "command": "-workbench.action.moveActiveEditorGroupLeft"
   },
   {
-    "key": "cmd+k shift+cmd+right",
+    "key": "ctrl+k shift+ctrl+right",
     "command": "-workbench.action.moveEditorRightInGroup"
   },
   {
@@ -393,7 +393,7 @@
     "command": "workbench.action.moveActiveEditorGroupRight"
   },
   {
-    "key": "cmd+k right",
+    "key": "ctrl+k right",
     "command": "-workbench.action.moveActiveEditorGroupRight"
   }
 ]
